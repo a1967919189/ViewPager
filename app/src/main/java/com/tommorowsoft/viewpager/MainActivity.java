@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
             , R.drawable.guide_image3};
     private ArrayList<ImageView> Images = new ArrayList<ImageView>();
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
