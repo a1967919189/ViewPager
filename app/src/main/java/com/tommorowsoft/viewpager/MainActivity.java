@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.viewPager);
 //        为ViewPager设置动画效果,3.0以上系统有效
         assert viewPager != null;
-        //      viewPager.setPageTransformer(true, new RotateDownPageTransformer());
-        viewPager.setPageTransformer(true, new ZoomOutPageTransformer());
+        viewPager.setPageTransformer(true, new RotateDownPageTransformer());
+//        viewPager.setPageTransformer(true, new ZoomOutPageTransformer());
 //        viewPager.setPageTransformer(true,new DepthPageTransformer());
         viewPager.setAdapter(new PagerAdapter() {
 
